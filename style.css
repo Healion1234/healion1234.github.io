@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Nexa Bold";
+	src: url(fonts/Nexa Bold.otf) format('otf');
+	src: url(fonts/nexa_bold-webfont.woff) format('woff');
+}
+
+@font-face {
+	font-family: "Nexa Light";
+	src: url(fonts/Nexa Light.otf);
+	src: url(fonts/nexa_light-webfont.woff) format('woff');
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	border: 8px solid #000000;
+	padding: 40px;
+    background-color: #c0ffc0;
+}
+
+body {
+	background-image: url("BG Tile.png");
+	background-position: center;
+}
+
+h1 {
+	font-family: "Nexa Bold", Georgia;
+}
+
+h2 {
+	font-family: "Nexa Bold", Georgia;
+	margin-left: 25px;
+}
+
+h3 {
+	font-family: "Nexa Bold", Georgia;
+	margin-left: 50px;
+}
+
+p {
+	font-family: "Nexa Light", Georgia;
+	margin-left: 75px;
+	margin-right: 75px;
+}
